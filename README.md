@@ -1,4 +1,4 @@
-### Password Hashing in NodeJS using Bcrypt
+### Login Register with Password Hashing in NodeJS using Bcrypt
 
 #### Prerequisites
 
