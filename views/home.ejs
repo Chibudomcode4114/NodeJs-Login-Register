@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <title>Home page</title>
+  </head>
+  <!-- <body>
+    <h1>Home Page</h1>
+    <a href="/register"> Register</a> <br />
+    <a href="/login">Login</a>
+  </body> -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Welcome to my website!</h1>
+      </div>
+      <div class="col-md-12 text-center">
+        <!-- added the text-center class to center the buttons -->
+        <button
+          id="loginBtn"
+          class="btn btn-primary"
+          onclick="redirectToLogin()"
+        >
+          <a href="/login" style="color: whitesmoke; font-weight: bold"
+            >Login</a
+          >
+        </button>
+        <button
+          id="registerBtn"
+          class="btn btn-primary"
+          onclick="redirectToRegister()"
+        >
+          <a href="/register" style="color: whitesmoke; font-weight: bold">
+            Register</a
+          >
+        </button>
+      </div>
+    </div>
+  </div>
+</html>
